@@ -34,7 +34,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def health():
-    return "OK", 200
+    return "Pinging Sites", 200
 
 if __name__ == "__main__":
     Thread(target=ping_loop, daemon=True).start()
