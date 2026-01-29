@@ -9,6 +9,7 @@ SELF_URL = os.getenv("RENDER_EXTERNAL_URL")
 URLS_TO_PING = [
     "https://example.com",
     "https://another-site.com",
+    "https://website-pinger-w81z.onrender.com",
 ]
 
 def ping(url):
