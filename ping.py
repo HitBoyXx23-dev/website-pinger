@@ -10,9 +10,11 @@ SELF_URL = os.getenv("RENDER_EXTERNAL_URL")
 PORT = int(os.getenv("PORT", 10000))
 
 URLS_TO_PING = [
-    "https://example.com",
-    "https://another-site.com",
+    "https://navine-compressor.onrender.com/",
+    "https://navine-file-sharer.onrender.com",
     "https://website-pinger-w81z.onrender.com",
+    "example.com",
+    "example.com",
 ]
 
 def ping(url):
