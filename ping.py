@@ -14,6 +14,8 @@ URLS_TO_PING = [
     "https://navine-file-sharer.onrender.com",
     "https://website-pinger-w81z.onrender.com",
     "https://euphoria-ai-bot.onrender.com",
+    "https://navcord.onrender.com/",
+    "https://euphoria-mc.onrender.com/",
     "example.com",
     "example.com",
 ]
